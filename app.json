@@ -1,0 +1,24 @@
+{
+    "name" : "fu",
+    "author" : "Sheyiyuan",
+    "namespace" : "fu",
+    "info" : "最终物语检定插件",
+    "priority" : 30000,
+    "svn" : 1,
+    "version" : "1.0.0",
+    "compatible_svn" : 100,
+    "message_mode" : "olivos_string",
+    "support" : [
+        {
+            "sdk" : "onebot",
+            "platform" : "qq",
+            "model" : "all"
+        },
+        {
+            "sdk" : "all",
+            "platform" : "all",
+            "model" : "all"
+        }
+    ],
+    "menu_config": []
+}
