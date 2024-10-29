@@ -43,11 +43,11 @@ keyList ={
     "力量": "mig",
     "灵巧": "dex",
     "洞察": "ins",
-    "意志": "wis",
+    "意志": "wlp",
     "m":"mig",
     "d":"dex",
     "i":"ins",
-    "w":"wis",
+    "w":"wlp",
 }
 
 
