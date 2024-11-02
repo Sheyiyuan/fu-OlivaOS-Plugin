@@ -26,9 +26,9 @@ def unity_reply(plugin_event, Proc):
     if cmd is None:
         return
     cmd_args =cmd.split(" ")
+    cmd_args =[x for x in cmd_args if x!='']
     if len(cmd_args) < 1:
         return
-    cmd_args =[x for x in cmd_args if x!='']
     reply = ''
     delta_clock = 0
     # fu命令
